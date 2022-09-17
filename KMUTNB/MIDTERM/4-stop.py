@@ -10,10 +10,11 @@ angle = 360/side
 pole = distance*2
 
 t.pensize(8)
+t.setx(-100)
 
 for i in range(n):
 
-    t.color('blue')
+    t.color('red', 'dark red')
     t.begin_fill()
 
     for j in range(side):
